@@ -1,20 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <!-- Titoli -->
-  <!-- h1 deve essere unico in una pagina -->
-  <h1>Titolo 1</h1>
-  <h2>Titolo 2</h2>
-  <h3>Titolo 3</h3>
-  <h4>Titolo 4</h4>
-  <h5>Titolo 5</h5>
-  <h6>Titolo 6</h6>
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Titoli -->
+    <!-- h1 deve essere unico in una pagina -->
+    <div>
+      <h1>Titolo 1</h1>
+      <h2>Titolo 2</h2>
+      <h3>Titolo 3</h3>
+      <h4>Titolo 4</h4>
+      <h5>Titolo 5</h5>
+      <h6>Titolo 6</h6>
+    </div>
 
-  
-</body>
+    <!-- Paragraph -->
+    <!-- Examples of block and inline tags -->
+    <section>
+      <h2>Paragraphs, em and strong tags</h2>
+      <div>
+        <p>
+          Lorem ipsum dolor sit, <strong>amet</strong> consectetur adipisicing
+          elit. Veritatis fugiat quam ad. Aliquid, <em>dolorum</em> quae eius
+          tempora explicabo nisi, inventore, rerum possimus animi ratione
+          perspiciatis aut quaerat! Temporibus, alias aperiam?
+        </p>
+        <p>
+          Dovete assolutamente <strong>scrivere bene</strong> i messaggi dei
+          commit
+        </p>
+      </div>
+    </section>
+
+    <!-- ht viene utilizzato per dividere diversi blocchi della nostra pagina -->
+    <!-- hr e br sono selfclosing tags -->
+    <hr >
+
+    <p>
+      Questo è il mio indirizzo: <br >
+      via Roma, 14, <br >
+      Roma
+    </p>
+
+    <!-- Image tag -->
+    <img src="./img/monti-300.jpg" alt="Le montagne con il cielo nuvoloso" >
+    <img
+      src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.2WXYg7CNcYUhjPwYiQK_eAHaGW%26pid%3DApi&f=1&ipt=b9985880d7677c68e79d1a4ce8154f61a9cbe146fa2dd73175173b51e4366fa7&ipo=images"
+      alt="Un piccolo gattino rosso appena nato"
+    >
+    <p>tag &lt;img&gt; è self closing</p>
+
+    <hr >
+
+    <!-- Bottoni e link -->
+    <!-- Anchor tag per link su una pagina -->
+    <a href="https://www.google.it">Vedi questo contenuto</a>
+
+    <button>Click me</button>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
+      architecto tenetur numquam amet perferendis voluptates deserunt nobis
+      facere ducimus! Quo vitae illo quam soluta omnis reiciendis sapiente,
+      ducimus voluptates quibusdam.
+    </p>
+
+    <!--Esempio delle tabelle -->
+    <section>
+      <h2>Tag table</h2>
+
+      <table>
+        <!-- Intestazione della tabella -->
+        <thead>
+          <tr>
+            <th>Numero</th>
+            <th>Data di partenza</th>
+            <th>Num. studenti</th>
+          </tr>
+        </thead>
+
+        <!-- Contenuto della tabella -->
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>01/02/2021</td>
+            <td>34</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>15/02/2021</td>
+            <td>30</td>
+          </tr>
+        </tbody>
+
+        <!-- Chiusura della tabella -->
+        <tfoot>
+          <tr>
+            <td colspan="2">Totale studenti</td>
+            <!-- <td></td> -->
+            <td>64</td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+
+    <!-- Esempio delle liste -->
+    <section>
+      <h2>List tags</h2>
+
+      <!-- Lista ordinata (numerata) -->
+      <ol>
+        <li>
+          <h4>Item 1</h4>
+        </li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ol>
+
+      <!-- Lista non ordinata -->
+      <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ul>
+
+      <!-- Lista annidata -->
+      <h3>Classi boolean</h3>
+      <!-- Lista del primo livello -->
+      <ol>
+        <li>
+          <h4>Classe 108</h4>
+          <ul>
+            <li>Pluto</li>
+            <li>Pippo</li>
+            <li>Paperino</li>
+          </ul>
+        </li>
+        <li>
+          <h4>Classe 109</h4>
+          <ul>
+            <li>Giuseppe</li>
+            <li>Mario</li>
+            <li>Luisa</li>
+          </ul>
+        </li>
+        <li>
+          <h4>Classe 110</h4>
+        </li>
+      </ol>
+    </section>
+  </body>
 </html>
