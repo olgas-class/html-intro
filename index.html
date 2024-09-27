@@ -14,6 +14,7 @@
     <!-- Self closing tags (non hanno contenuto racchiuso tra apertura e chiusira dei tag) -->
     <br />
     <img src="" alt="" />
+    <hr />
 
     <!-- Immagini -->
     <!-- Si utilizza il percorso relativo che inizia con ./ -->
@@ -32,13 +33,56 @@
       alt="Cascata nel lago"
     />
 
+    <!-- Tabella -->
+    <table>
+      <!-- Intestazione della tabella -->
+      <thead>
+        <tr>
+          <th>Paese</th>
+          <th>Codice</th>
+          <th>Superficie</th>
+          <th>Popolazione</th>
+        </tr>
+      </thead>
+      <!-- Corpo della tabella -->
+      <tbody>
+        <tr>
+          <td>Italia</td>
+          <td>IT</td>
+          <td>567</td>
+          <td>60</td>
+        </tr>
+        <tr>
+          <td>Francia</td>
+          <td>FR</td>
+          <td>365</td>
+          <td>78</td>
+        </tr>
+      </tbody>
+      <!-- chiusura della tabella -->
+      <tfoot>
+        <tr>
+          <td colspan="3">
+            <strong>Totale popolazione</strong>
+          </td>
+          <td>138</td>
+        </tr>
+      </tfoot>
+    </table>
+
     <!-- Titoli del documento -->
-    <h1>Titolo</h1>
+    <h1>
+      Questo è il mio titolo <br />
+      molto bello
+    </h1>
     <h2>Titolo 2</h2>
     <h3>Titolo 3</h3>
     <h4>Titolo 4</h4>
     <h5>Titolo 5</h5>
     <h6>Titolo 6</h6>
+
+    <!-- Horizontal row -->
+    <hr />
 
     <!-- Paragrafo -->
     <p>
@@ -107,5 +151,19 @@
       </li>
       <!-- /Item della lista 1 -->
     </ul>
+
+    <!-- Tag di contenimento -->
+    <section>
+      <h2>Titolo della sezione</h2>
+
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni cumque dolor eligendi dicta sint voluptatum, accusantium quidem dignissimos dolorum numquam doloremque aut quod sed ipsam rem error aspernatur cupiditate minima.</p>
+      
+      <!-- Blocchi che vogliamo unire insieme -->
+      <div>
+        <img src="./img/monti-300.jpg" alt="Testo da scrivere">
+        <p>Descrizione</p>
+      </div>
+
+    </section>
   </body>
 </html>
