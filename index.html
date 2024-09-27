@@ -1,30 +1,92 @@
 <!DOCTYPE html>
 <html lang="it">
-<!-- Testa -->
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="La pagina html che dimostra i tag">
-  <title>HTML tags</title>
-</head>
+  <!-- Testa -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="La pagina html che dimostra i tag" />
+    <title>HTML tags</title>
+  </head>
 
-<!-- Corpo -->
-<!-- Questo è il mio commento -->
-<body>
+  <!-- Corpo -->
+  <!-- Questo è il mio commento -->
+  <body>
+    <!-- Titoli del documento -->
+    <h1>Titolo</h1>
+    <h2>Titolo 2</h2>
+    <h3>Titolo 3</h3>
+    <h4>Titolo 4</h4>
+    <h5>Titolo 5</h5>
+    <h6>Titolo 6</h6>
 
-  <!-- Titoli del documento -->
-  <h1>Titolo</h1>
-  <h2>Titolo 2</h2>
-  <h3>Titolo 3</h3>
-  <h4>Titolo 4</h4>
-  <h5>Titolo 5</h5>
-  <h6>Titolo 6</h6>
+    <!-- Paragrafo -->
+    <p>
+      Lorem <em>ipsum dolor</em> sit, amet consectetur adipisicing elit. Est
+      ipsam itaque, mollitia quos numquam, dolorem suscipit rem
+      <strong>perspiciatis laboriosam sunt</strong> deserunt ad dicta non, nam
+      atque illum eaque id nisi.
+    </p>
 
-  <!-- Paragrafo -->
-  <p>Lorem <em>ipsum dolor</em> sit, amet consectetur adipisicing elit. Est ipsam itaque, mollitia quos numquam, dolorem suscipit rem <strong>perspiciatis laboriosam sunt</strong> deserunt ad dicta non, nam atque illum eaque id nisi.</p>
+    <!-- Esempio per br breake -->
+    <p>
+      Via Roma 13,<br />
+      Roma 23456 <br />
+      Italia
+    </p>
 
-  <!-- Esempio per br breake -->
-  <p>Via Roma 13,<br/> Roma 23456 <br/> Italia</p>
-  
-</body>
+    <!-- Bottoni e link -->
+    <a href="https://corriere.it">Questo è il mio link</a>
+    <br />
+    <button>Questo è il bottone</button>
+
+    <!-- Liste -->
+    <!-- Oredered list -->
+    <!-- Solo li possono essere figli di ol / ul -->
+    <ol>
+      <li>
+        Item 1
+      </li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+      <li>Item 5</li>
+    </ol>
+
+    <!-- Unordered list -->
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+      <li>Item 5</li>
+    </ul>
+
+    <!-- Liste annidate -->
+    <h3>Classi di boolean</h3>
+    <!-- Lista 1 -->
+    <ul>
+      <!-- Item della lista 1 -->
+      <li>
+        <h4>Classe 135</h4>
+        <!-- Lista 2 -->
+        <ol>
+          <li>Adriano</li>
+          <li>Arianna</li>
+          <li>Angelo</li>
+        </ol>
+      </li>
+      <!-- /Item della lista 1 -->
+      <!-- Item della lista 1 -->
+      <li>
+        <h4>Classe 136</h4>
+      </li>
+
+      <!-- /Item della lista 1 -->
+      <!-- Item della lista 1 -->
+      <li>
+        <h4>Classe 137</h4>
+      </li>
+      <!-- /Item della lista 1 -->
+    </ul>
+  </body>
 </html>
